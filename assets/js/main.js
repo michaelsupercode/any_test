@@ -1,6 +1,4 @@
-// Transition
-// Ported from flash project - http://wonderfl.net/c/4gvL
-//
+
 function Transition(){
 	
 	var canvas;
@@ -39,7 +37,6 @@ function Transition(){
 				
 		canvas.addEventListener('click', MouseDown, false);
 		
-		//Set interval - Bad! - I know!
 		var interval = setInterval(Update, 20);
 	}
 	
